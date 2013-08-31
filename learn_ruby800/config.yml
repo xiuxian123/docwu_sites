@@ -1,0 +1,24 @@
+docwu:
+  routes:
+    folders:
+      'doc/course/Ruby':            "course/languages/ruby"
+      'doc/course/前端技术':        "course/tech/webfront"
+      'doc/course/应用部署':        "course/tech/deploy"
+      'doc/帮助':                   "help"
+    topics:
+      index.markdown:      "index.html"
+    layouts:
+      index:               "index.mustache"
+      post:                "post.mustache"
+      folder:              "folder.mustache"
+  worker:
+    authors:
+      'happy':          'happy'
+      'master':         'web master'
+    site:
+      name:            "Ruby800互联网开发课程"
+    copyright:
+      year:            '2013'
+      name:            "ruby800"
+      content:         "做最优秀的互联网开发指南"
+
